@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 //define and import mongodb
-const mongoUrl =  'mongodb://localhost:27017/hotels'
+//const mongoUrl =  'mongodb://localhost:27017/hotels'
+const mongoUrl = 'mongodb+srv://lugadevaibhavi:Vaibhavi@cluster0.hlpnqdp.mongodb.net/'
 
 //set up mongodb connection
 mongoose.connect(mongoUrl,{
